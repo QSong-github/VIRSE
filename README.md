@@ -79,7 +79,9 @@ VARISEM supports several customizable parameters when initializing the model:
 Explore the `Jupyter Notebook` folder for:
 * Tutorials on simulate and preprocessing data.
 * Example workflows demonstrating how to run VARISEM.
-* Visualizations of clustering results (ARI, MAE and KL)  and estimated distributions against the ground truth. 
+* Visualizations of clustering results (ARI, MAE and KL)  and estimated distributions against the ground truth.
+   
+<img width="658" alt="Screenshot 2025-03-21 at 7 31 36 PM" src="https://github.com/user-attachments/assets/867aa7c8-1538-41c2-9733-956666dafbf6" />
 
 ### Contact
 For questions, issues, or feature requests, feel free to [open an issue]([https://github.com/QSong-github/VARISEM/issues) or contact me directly.  

@@ -87,6 +87,49 @@ Explore the `Jupyter Notebook` folder for:
 This module provides a fully controllable in silico simulation framework for generating DRACO-style single-molecule mutation data. The simulator produces synthetic DMS-MaPseq–like mutation matrices with user-specified structural patterns, mutation rates, background noise, cluster proportions, and sequencing depth.
 
 It is used to benchmark VARISEM, EM, and other clustering or mixture-model algorithms under realistic yet fully known ground truth.
+## Processing Real DMS-MaPseq Data
+
+`code-VARISEM` supports direct processing of **real DMS-MaPseq** datasets using a workflow compatible with the CodeOcean DRACO/DREEM capsule.
+
+This functionality is adapted from:
+
+**CodeOcean Capsule 6175523**  
+https://codeocean.com/capsule/6175523/tree/v1
+
+with the following updated components:
+
+- `VARISEM.py` — replaced with the updated Variational Bayesian inference model  
+- `EM_algorithm.py` — improved and stabilized EM implementation  
+
+All other scripts follow the original DRACO/DREEM folder structure.
+
+---
+
+### Pipeline Overview
+
+The script `Run_DREEM.py` performs:
+
+- FASTQ mutation extraction  
+- Bit-vector construction  
+- Clustering using updated EM or VARISEM  
+- Folding cluster-specific structures using RNAstructure (optional)
+
+---
+
+### Quick Start Example
+
+To process the demo dataset `RRE_invitroDMS`:
+
+```bash
+python Run_DREEM.py \
+    ../data/DREEM_Input/ \
+    ../results/ \
+    RRE_invitroDMS \
+    NL43rna \
+    7410 7500 \
+    --fastq --struct
+
+Change the parameters based on your file format.
 
 ### Contact
 For questions, issues, or feature requests, feel free to [open an issue]([https://github.com/QSong-github/VARISEM/issues) or contact me directly.  

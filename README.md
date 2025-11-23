@@ -128,6 +128,7 @@ python Run_DREEM.py \
     NL43rna \
     7410 7500 \
     --fastq --struct
+```
 
 Change the parameters based on your file format.
 

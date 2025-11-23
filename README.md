@@ -10,7 +10,10 @@ VARISEM leverages long-read sequencing to uncover and resolve alternative RNA st
 - [Output](#output)
 - [Advanced Settings](#advanced-settings)
 - [Examples and Notebooks](#examples-and-notebooks)
+- [In Silico Simulation Module](#In Silico Simulation Module)
+- [Processing Real DMS-MaPseq Data](#Processing Real DMS-MaPseq Data)
 - [Contact](#contact)
+  
 
 ## Background
 RNA molecules exhibit significant structural heterogeneity, further complicated by dynamic chemical modifications such as **N6-methyladenosine (m6A)**. This variability presents a major challenge for traditional single-structure prediction methods. Although SHAPE-MaP provides experimental constraints that improve RNA structure prediction, existing computational approaches vary in their ability to model complex RNA conformational ensembles.

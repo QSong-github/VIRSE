@@ -8,7 +8,7 @@ chmod +x ../data/binaries/RNAstructure/exe/*
 export DATAPATH=../data/binaries/RNAstructure/data_tables/
 export PATH=../data/binaries/RNAstructure/exe/:$PATH
 
-# RNAstructure executables and data tables (conda/micromamba 安装路径)
+# RNAstructure executables and data tables
 export PATH=/Users/liangjialu/micromamba/envs/dreem-vi/bin:$PATH
 export DATAPATH=/Users/liangjialu/micromamba/envs/dreem-vi/share/rnastructure/data_tables/
 

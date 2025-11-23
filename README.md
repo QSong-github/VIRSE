@@ -90,7 +90,7 @@ Explore the `Jupyter Notebook` folder for:
 This module provides a fully controllable in silico simulation framework for generating DRACO-style single-molecule mutation data. The simulator produces synthetic DMS-MaPseq–like mutation matrices with user-specified structural patterns, mutation rates, background noise, cluster proportions, and sequencing depth.
 
 It is used to benchmark VARISEM, EM, and other clustering or mixture-model algorithms under realistic yet fully known ground truth.
-## Processing Real DMS-MaPseq Data
+### Processing Real DMS-MaPseq Data
 
 `code-VARISEM` supports direct processing of **real DMS-MaPseq** datasets using a workflow compatible with the CodeOcean DRACO/DREEM capsule.
 

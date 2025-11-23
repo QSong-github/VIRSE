@@ -10,8 +10,8 @@ VARISEM leverages long-read sequencing to uncover and resolve alternative RNA st
 - [Output](#output)
 - [Advanced Settings](#advanced-settings)
 - [Examples and Notebooks](#examples-and-notebooks)
-- [In Silico Simulation Module](#In Silico Simulation Module)
-- [Processing Real DMS-MaPseq Data](#Processing Real DMS-MaPseq Data)
+- [In Silico Simulation Module](#in-silico-simulation-module)
+- [Processing Real DMS-MaPseq Data](#processing-real-dms-mapseq-data)
 - [Contact](#contact)
   
 

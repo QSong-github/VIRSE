@@ -83,6 +83,11 @@ Explore the `Jupyter Notebook` folder for:
    
 <img width="658" alt="Screenshot 2025-03-21 at 7 31 36 PM" src="https://github.com/user-attachments/assets/867aa7c8-1538-41c2-9733-956666dafbf6" />
 
+### In Silico Simulation Module
+This module provides a fully controllable in silico simulation framework for generating DRACO-style single-molecule mutation data. The simulator produces synthetic DMS-MaPseq–like mutation matrices with user-specified structural patterns, mutation rates, background noise, cluster proportions, and sequencing depth.
+
+It is used to benchmark VARISEM, EM, and other clustering or mixture-model algorithms under realistic yet fully known ground truth.
+
 ### Contact
 For questions, issues, or feature requests, feel free to [open an issue]([https://github.com/QSong-github/VARISEM/issues) or contact me directly.  
 If you use VARISEM in your research, please cite:

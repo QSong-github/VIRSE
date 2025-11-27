@@ -19,7 +19,7 @@ VIRSE leverages long-read sequencing to uncover and resolve alternative RNA stru
 RNA molecules exhibit significant structural heterogeneity, further complicated by dynamic chemical modifications such as N6-methyladenosine (m6A). This variability presents a major challenge for traditional single-structure prediction methods. Although SHAPE-MaP provides experimental constraints that improve RNA structure prediction, existing computational approaches vary in their ability to model complex RNA conformational ensembles.
 For example, RNAfold2 predicts RNA structures based on thermodynamic energy parameters and can explore alternative conformations through sampling. However, it does not explicitly model the probabilistic distribution of coexisting conformations within a heterogeneous RNA population.
 ### Why VIRSE?
-To address these limitations, we developed VIRSE designed to infer RNA structural ensembles** from high-throughput SHAPE-MaP and eTAM-seq data. By integrating structural and modification-specific signals at the single-molecule level, VIRSE enables quantitative analysis of how m6A modifications reshape RNA structural landscapes, such as that of 7SK RNA.
+To address these limitations, we developed VIRSE designed to infer RNA structural ensembles from high-throughput SHAPE-MaP and eTAM-seq data. By integrating structural and modification-specific signals at the single-molecule level, VIRSE enables quantitative analysis of how m6A modifications reshape RNA structural landscapes, such as that of 7SK RNA.
 
 ## Getting Started
 ### Prerequisites

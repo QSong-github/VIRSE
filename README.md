@@ -16,10 +16,10 @@ VIRSE leverages long-read sequencing to uncover and resolve alternative RNA stru
   
 
 ## Background
-RNA molecules exhibit significant structural heterogeneity, further complicated by dynamic chemical modifications such as **N6-methyladenosine (m6A)**. This variability presents a major challenge for traditional single-structure prediction methods. Although SHAPE-MaP provides experimental constraints that improve RNA structure prediction, existing computational approaches vary in their ability to model complex RNA conformational ensembles.
+RNA molecules exhibit significant structural heterogeneity, further complicated by dynamic chemical modifications such as N6-methyladenosine (m6A). This variability presents a major challenge for traditional single-structure prediction methods. Although SHAPE-MaP provides experimental constraints that improve RNA structure prediction, existing computational approaches vary in their ability to model complex RNA conformational ensembles.
 For example, RNAfold2 predicts RNA structures based on thermodynamic energy parameters and can explore alternative conformations through sampling. However, it does not explicitly model the probabilistic distribution of coexisting conformations within a heterogeneous RNA population.
 ### Why VIRSE?
-To address these limitations, we developed **VIRSE**—a **Variational Bayesian clustering framework** designed to infer **RNA structural ensembles** from high-throughput **SHAPE-MaP** and **eTAM-seq data**. By integrating structural and modification-specific signals at the single-molecule level, VIRSE enables quantitative analysis of how m6A modifications reshape RNA structural landscapes, such as that of **7SK RNA**.
+To address these limitations, we developed VIRSE designed to infer RNA structural ensembles** from high-throughput SHAPE-MaP and eTAM-seq data. By integrating structural and modification-specific signals at the single-molecule level, VIRSE enables quantitative analysis of how m6A modifications reshape RNA structural landscapes, such as that of 7SK RNA.
 
 ## Getting Started
 ### Prerequisites
@@ -92,7 +92,7 @@ This module provides a fully controllable in silico simulation framework for gen
 It is used to benchmark VIRSE, EM, and other clustering or mixture-model algorithms under realistic yet fully known ground truth.
 ### Processing Real DMS-MaPseq Data
 
-`code-VIRSE` supports direct processing of **real DMS-MaPseq** datasets using a workflow compatible with the CodeOcean DRACO/DREEM capsule.
+`code-VIRSE` supports direct processing of real DMS-MaPseq datasets using a workflow compatible with the CodeOcean DRACO/DREEM capsule.
 
 This functionality is adapted from:
 
